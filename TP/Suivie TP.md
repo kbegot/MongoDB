@@ -301,6 +301,12 @@ On a belle est bien trouver la station météorologique qui  à enregistrer la t
 #### A)
 **Exportez les résultats des requêtes dans un fichier CSV pour un usage ultérieur. Utilisez la commande mongoexport pour exporter des données de MongoDB:**
 
+```javascript
+//exemple de mongoExport
+mongoexport --collection=weatherbrazil --db=tp --out=weatherbrazil.json
+```
+
 Lors de l'export de la base de données donnée `weatherbrazil.csv` j'ai bien sure exporter toute la collection ainsi que tous les fields qui s'y trouver sous le format `.csv`
 
 La collection est disponible dans mon repo Git.
+
